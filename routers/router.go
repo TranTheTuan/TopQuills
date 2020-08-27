@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"TopQuills/controllers"
+	"github.com/TranTheTuan/TopQuills/controllers"
 
 	"github.com/astaxie/beego"
 )

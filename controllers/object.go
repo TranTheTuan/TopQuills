@@ -1,8 +1,9 @@
 package controllers
 
 import (
-	"TopQuills/models"
 	"encoding/json"
+
+	"github.com/TranTheTuan/TopQuills/models"
 
 	"github.com/astaxie/beego"
 )
@@ -89,4 +90,3 @@ func (o *ObjectController) Delete() {
 	o.Data["json"] = "delete success!"
 	o.ServeJSON()
 }
-
